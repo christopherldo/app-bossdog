@@ -1,8 +1,8 @@
-import logo from "./assets/logo.png";
+import Logo from "./components/Logo";
 import "./styles/main.css";
 
 function App() {
-  return <img src={logo} alt="BossDog log" />;
+  return <Logo />;
 }
 
 export default App;
