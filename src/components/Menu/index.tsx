@@ -2,6 +2,7 @@ import "./menu.styles.css";
 
 import Action from "../Action";
 import Button from "../Button";
+import MenuIcon from "../MenuIcon";
 
 export default function Menu() {
   return (
@@ -14,6 +15,7 @@ export default function Menu() {
       </div>
 
       <Button />
+      <MenuIcon />
     </nav>
   );
 }
