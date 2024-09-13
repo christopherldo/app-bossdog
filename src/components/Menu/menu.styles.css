@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu > .wrapper-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .menu > .wrapper-actions {
+    display: none;
+  }
+}
