@@ -8,11 +8,13 @@ export default function Header() {
   return (
     <header>
       <Logo />
-      <Action href="#nft" children="nft" />
-      <Action href="#token" children="token" />
-      <Action href="#team" children="team" />
-      <Action href="#whitepaper" children="whitepaper" />
-      <Button />
+      <nav>
+        <Action href="#nft" children="nft" />
+        <Action href="#token" children="token" />
+        <Action href="#team" children="team" />
+        <Action href="#whitepaper" children="whitepaper" highlighted />
+        <Button />
+      </nav>
     </header>
   );
 }
