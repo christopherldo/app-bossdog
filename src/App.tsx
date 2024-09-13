@@ -1,14 +1,12 @@
-import Button from "./components/Button";
-import Logo from "./components/Logo";
+import "./styles/reset.css";
 import "./styles/main.css";
 
-function App() {
+import Header from "./components/Header";
+
+export default function App() {
   return (
     <>
-      <Logo />
-      <Button />
+      <Header />
     </>
   );
 }
-
-export default App;
